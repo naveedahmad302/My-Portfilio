@@ -1,0 +1,96 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main_container {
+    display: flex;
+    width: auto;
+    height: 70%;
+}
+
+.sub_container {
+    width: 50%;
+}
+
+#right_container {
+    background-color: #EDEDED;
+
+}
+
+#right_container img {
+    width: 93%;
+    padding-left: 30px;
+}
+
+#left_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#left_container span {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    color: #fbc612;
+}
+
+#left_container strong:first-child {
+    font-size: 3rem;
+}
+
+.sub_child_container {
+    padding: 0px 120px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 5rem;
+
+}
+
+#left_container p:first-of-type {
+    display: inline-block;
+    background-color: #fbc612;
+    font-weight: bold;
+    padding: 7px;
+    width: 270px;
+    border-radius: 4px;
+}
+
+.sub_container button {
+    width: 170px;
+    padding: 15px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fbc612;
+}
+.side_bar{
+    position: fixed;
+    right: 35px;
+    top: 170px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 25px;
+    height: 40%;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #fbc612;
+    
+}
+.side_bar a img{
+    width: 25px;
+}
+.side_bar a::before{
+    color: #EDEDED;
+}
